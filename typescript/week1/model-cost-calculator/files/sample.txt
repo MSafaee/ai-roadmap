@@ -1,0 +1,1 @@
+Large language models process text by first breaking it into tokens. Tokens are not always words. A single word may become multiple tokens, and punctuation is usually tokenized separately.
