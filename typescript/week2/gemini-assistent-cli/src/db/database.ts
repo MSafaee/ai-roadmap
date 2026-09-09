@@ -17,7 +17,7 @@ export async function insertSchedule(owner: number, task: string, attendees: num
     const result = await pool.query(
         `
         INSERT INTO schedules (owner, task, attendees, deadline)
-        VALUES ($1, $2, COALESCE($3, '{}'::text[]), $4)
+        VALUES ($1, $2, $3, $4)
         RETURNING *
         `,
         [owner, task, attendees, deadline]

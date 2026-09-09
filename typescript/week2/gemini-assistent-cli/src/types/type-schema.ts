@@ -9,7 +9,7 @@ export const scheduleSchema = z.object({
     deadline: z.date(),
     created_at: z.date(),
     status: z.string(),
-    finished_at: z.date().nullable,
+    finished_at: z.date().nullable(),
     delayed: z.boolean()
 });
 

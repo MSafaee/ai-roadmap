@@ -16,7 +16,7 @@ const geminiChat = new GoogleGenAI({ apiKey });
 let functionResults: Interactions.FunctionResultStep[];
 let ask: number = 0;
 
-export async function askModel(userInput: string, interactionID?: string): Promise<string> {
+export async function askModel(userInput: string): Promise<string> {
 
     console.log("k");
     ask++;
@@ -25,7 +25,6 @@ export async function askModel(userInput: string, interactionID?: string): Promi
     const interaction = await geminiChat.interactions.create({
         model: model,
         input: userInput,
-        previous_interaction_id: interactionID,
         tools: tools,
         system_instruction: prompt
     });
@@ -44,7 +43,8 @@ export async function askModel(userInput: string, interactionID?: string): Promi
     }
    
     if (functionResults.length === 0) throw new Error(`No respond generated`);
-    return await askModel(JSON.stringify(functionResults), interaction.id);
+    if (!interaction.previous_interaction_id) throw new Error(`No id`);
+    return response(interaction.previous_interaction_id);
 }
 
 async function response(interactionID: string): Promise<string> {
@@ -83,7 +83,7 @@ async function callFunction(name: string, id: string, args: unknown) {
             type: "function_result",
             name: name,
             call_id: id,
-            result: [{ type: "text", text: response }]
+            result: [{ type: "text", text: JSON.stringify(response) }]
         }
     );
 }
