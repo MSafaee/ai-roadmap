@@ -14,8 +14,10 @@ I used [{JSON} Placeholder](https://jsonplaceholder.typicode.com/posts) fake dat
 - typescript v7.0.2
 - @types/node v26.1.2
 
+## Installation
+
 ```bash
-pnpm add typescript @types/node
+pnpm install
 ```
 
 ## Run

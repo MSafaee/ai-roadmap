@@ -12,8 +12,10 @@ A simple TypeScript CLI program that reads a JSON file containing user's informa
 - typescript v7.0.2
 - @types/node v26.1.2
 
+## Installation
+
 ```bash
-pnpm add typescript @types/node
+pnpm install
 ```
 
 ## Run

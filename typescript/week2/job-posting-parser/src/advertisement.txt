@@ -1,0 +1,57 @@
+Job Description
+
+We are now looking for a Senior Frontend Developer to join our fast-paced engineering team. In this role, you’ll take ownership of high-traffic enterprise e-commerce platforms, drive architectural decisions alongside our Tech Lead, and continuously push the boundaries of modern frontend development.
+
+What you'll do:
+
+Build high-traffic user interfaces for enterprise e-commerce platforms using JavaScript, TypeScript, Vue 3, and Nuxt 3.
+
+Implement high-leverage frontend features focused on optimizing user experience and conversion rates.
+
+Collaborate with developers, product managers, QA engineers, and designers to ship modern design systems and features.
+
+Work with the Tech Lead to draft architectural decisions and evaluate new web technologies.
+
+Maintain high code quality through code reviews, automated testing, and active involvement in team retrospectives.
+
+Develop new shop features and designs within an agile Scrum environment, primarily utilizing Nuxt 3 and Tailwind CSS.
+
+Ensure end-to-end quality assurance and pixel-perfect design implementation using testing frameworks like Vitest and Playwright.
+
+Participate in knowledge sharing and engage with the internal engineering tech community.
+
+
+Qualifications
+
+At least 5 years of professional experience and fundamental knowledge in frontend development.
+
+Professional experience with TypeScript and modern frameworks such as Vue 3, Nuxt 3, or Node.js (or deep ReactJS experience with a strong willingness to transition to Vue).
+
+Strong command of core web technologies including HTML, JavaScript, and CSS.
+
+Hands-on experience with Tailwind CSS and a keen eye for accurate UI design implementation.
+
+Background in B2C e-commerce or experience working within a fast-paced boutique agency environment.
+
+Practical knowledge of automated testing tools such as Playwright, Jest, or Vitest.
+
+Excellent communication skills in English and a strong ability to adopt different perspectives.
+
+Initial experience with Vue Storefront or Scayle is an advantage.
+
+Experience with Redis is a plus.
+
+A passion for accessibility is another plus.
+
+
+Additional Information
+
+Your perks at a glance: Visit our benefits page.
+
+Simply apply online via our career page - we will get back to you as soon as possible!
+(Please note that benefits may vary depending on the location)
+
+A Place Where You Can Be You
+We take it as our responsibility to create an environment where everyone feels welcome, exactly as they are.
+Different backgrounds and perspectives make us stronger and shape our culture in ways that matter.
+What we stand for internally, we stand for as a brand: acceptance, inclusion, and fairness.

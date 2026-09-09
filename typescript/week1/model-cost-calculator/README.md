@@ -14,9 +14,10 @@ A simple TypeScript CLI program that tokenize the input text and calculate the c
 - @types/node v26.1.2
 - tiktoken v1.0.22
 
+## Installation
+
 ```bash
-pnpm add typescript @types/node
-pnpm add tiktoken
+pnpm install
 ```
 
 ## Run
