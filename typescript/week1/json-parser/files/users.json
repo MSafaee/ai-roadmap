@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "firstname": "Ali",
+    "lastname": "Smith",
+    "age": 20,
+    "premium": true,
+    "purchased": [1,2,3]
+  },
+  {
+    "id": 2,
+    "firstname": "sara",
+    "lastname": "Jose",
+    "age": 24,
+    "premium": false,
+    "purchased": [1,4,5]
+  },
+  {
+    "id": 3,
+    "firstname": "sara",
+    "lastname": "smith",
+    "age": 24,
+    "premium": true,
+    "purchased": [4,3,5]
+  }
+]
